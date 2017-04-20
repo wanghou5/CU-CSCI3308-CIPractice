@@ -1,2 +1,4 @@
-./configure && make && make test
+sudo:required
 language: c
+compiler:gcc
+script: make dep && make && make test
