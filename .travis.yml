@@ -1,5 +1,5 @@
 language: c
 install: make dep
-sudo:required
-compiler:gcc
+sudo: required
+compiler: gcc
 script: make clean && make && make test
