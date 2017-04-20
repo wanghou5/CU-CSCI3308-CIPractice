@@ -1,4 +1,5 @@
 language: c
+install: make dep
 sudo:required
 compiler:gcc
-script: make dep && make && make test
+script: make clean && make && make test
