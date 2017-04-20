@@ -2,4 +2,4 @@ language: c
 install: make dep
 sudo: required
 compiler: gcc
-script: make clean && make && make test
+script: make clean && make test && make all
